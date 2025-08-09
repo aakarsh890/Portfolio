@@ -220,4 +220,61 @@ function projectPart({ heading, src, link }) {
     projectContainer.appendChild(project);
 }
 
+
 projectSection.forEach(projectPart);
+
+
+// ========= Certificate Render ==========
+function certificatePart({ heading, link, imgSrc }) {
+    const certificateContainer = document.querySelector(".certificate-container-section");
+
+    // Outer container
+    const certificate = createEl("div", { classList: ["certificate"] });
+
+    const certificateContent = createEl("div");
+    certificate.appendChild(certificateContent);
+
+    // Title
+    const h4 = createEl("h4", { text: heading });
+
+    // Image
+    const image = createEl("img", {
+        attributes: {
+            src: imgSrc,
+            alt: heading,
+            style: "width: 100%;"
+        }
+    });
+
+    certificateContent.appendChild(h4);
+    certificateContent.appendChild(image);
+
+
+    const div = createEl("div");
+
+    const certificateDiv = createEl("div", {
+        classList: ["certificate-btn", "flex-class"]
+    });
+
+    div.appendChild(certificateDiv);
+
+    const button = createEl("button");
+
+        certificateDiv.appendChild(button);
+
+    const anchorTag = createEl("a", {
+        text: "View",
+        attributes: {
+            href: link,
+            target: "_blank"
+        }
+    });
+
+    button.appendChild(anchorTag);
+
+    certificate.appendChild(div);
+
+    certificateContainer.appendChild(certificate);
+}
+
+certificateSection.forEach(certificatePart);
