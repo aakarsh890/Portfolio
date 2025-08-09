@@ -80,7 +80,11 @@ const projectSection = [
         src: "images/Screenshot (3534).png",
         link: "https://travel-website-av5g.onrender.com"
     },
-
+    {
+        heading: "Blood Donation Website",
+        src: "images/Screenshot 2025-08-09 142055.png",
+        link: "https://blood-donation-app-frontend.onrender.com/"
+    },
 ];
 
 // ===== Example certificate data =====
@@ -106,3 +110,4 @@ const certificateSection = [
         link: "https://drive.google.com/file/d/1FynJfLPXFbuchC3drRu2F0UbS-QhMawR/view?usp=sharing"
     },
 ];
+
