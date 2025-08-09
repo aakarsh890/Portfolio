@@ -80,4 +80,29 @@ const projectSection = [
         src: "images/Screenshot (3534).png",
         link: "https://travel-website-av5g.onrender.com"
     },
+
+];
+
+// ===== Example certificate data =====
+const certificateSection = [
+    {
+        heading: "Software Development Engineering Intern",
+        imgSrc: "images/certificate intern.jpg",
+        link: "https://drive.google.com/file/d/1ek4Zk_BGFPoLrIfoMBhKzwdt0EJF9_fu/view?usp=sharing"
+    },
+    {
+        heading: "Conservation Economics",
+        imgSrc: "images/conservation economics.png",
+        link: "https://drive.google.com/file/d/1cWvQ5vDkZUArfRKFBw3wd2_PfJkiH5bH/view?usp=sharing"
+    },
+    {
+        heading: "Psychology Of Learning",
+        imgSrc: "images/psychology of learning.png",
+        link: "https://drive.google.com/file/d/103HAsURPqwyGx-uKuvU5WUyxEnuB4oOM/view?usp=sharing"
+    },
+    {
+        heading: "Education For Sustainable Development",
+        imgSrc: "images/Education For Sustainable Development.png",
+        link: "https://drive.google.com/file/d/1FynJfLPXFbuchC3drRu2F0UbS-QhMawR/view?usp=sharing"
+    },
 ];
