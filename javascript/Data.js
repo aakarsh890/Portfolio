@@ -89,11 +89,7 @@ const projectSection = [
 
 // ===== Example certificate data =====
 const certificateSection = [
-    {
-        heading: "Software Development Engineering Intern",
-        imgSrc: "images/certificate intern.jpg",
-        link: "https://drive.google.com/file/d/1ek4Zk_BGFPoLrIfoMBhKzwdt0EJF9_fu/view?usp=sharing"
-    },
+   
     {
         heading: "Conservation Economics",
         imgSrc: "images/conservation economics.png",
@@ -110,4 +106,5 @@ const certificateSection = [
         link: "https://drive.google.com/file/d/1FynJfLPXFbuchC3drRu2F0UbS-QhMawR/view?usp=sharing"
     },
 ];
+
 
